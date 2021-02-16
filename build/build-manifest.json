@@ -1,0 +1,56 @@
+{
+  "inputs": {
+    "index.css": {
+      "bytes": 37,
+      "imports": []
+    },
+    "hello-world.js": {
+      "bytes": 65,
+      "imports": []
+    },
+    "_snowpack/pkg/canvas-confetti.js": {
+      "bytes": 16370,
+      "imports": []
+    },
+    "index.js": {
+      "bytes": 252,
+      "imports": [
+        {
+          "path": "hello-world.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/canvas-confetti.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/index.css": {
+      "imports": [],
+      "inputs": {
+        "index.css": {
+          "bytesInOutput": 28
+        }
+      },
+      "bytes": 29
+    },
+    "../~~bundle~~/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "hello-world.js": {
+          "bytesInOutput": 41
+        },
+        "_snowpack/pkg/canvas-confetti.js": {
+          "bytesInOutput": 7196
+        },
+        "index.js": {
+          "bytesInOutput": 105
+        }
+      },
+      "bytes": 7343
+    }
+  }
+}
